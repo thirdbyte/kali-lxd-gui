@@ -37,3 +37,5 @@ lxc exec kali -- sudo -u kali xfce4-panel
 ![](/kali-lxd-gui.png)
 
 That's it!
+--
+Original documentation : [https://www.kali.org/docs/containers/kalilinux-lxc-images/#gui-kali-lxd-container-on-ubuntu-host](https://www.kali.org/docs/containers/kalilinux-lxc-images/#gui-kali-lxd-container-on-ubuntu-host)
