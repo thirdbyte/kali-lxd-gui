@@ -25,7 +25,7 @@ lxc exec kali -- apt install kali-linux-light kali-desktop-xfce
 lxc exec kali -- adduser kali
 lxc exec kali -- usermod -aG sudo kali
 lxc exec kali -- sed -i '1 i\TERM=xterm-256color' /home/kali/.bashrc
-lxc exec kali -- sh -c 'echo "export DISPLAY:0" >> /home/kali/.bashrc'
+lxc exec kali -- sh -c 'echo "export DISPLAY=:0" >> /home/kali/.bashrc'
 lxc exec kali -- sh -c "echo 'Set disable_coredump false' > /etc/sudo.conf"
 
 lxc exec kali -- apt install xfce4-terminal nano net-tools build-essential curl wget git
