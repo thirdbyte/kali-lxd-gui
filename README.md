@@ -34,5 +34,6 @@ lxc exec kali -- apt remove qterminal
 
 lxc exec kali -- sudo -u kali xfce4-panel
 ```
+![](/kali-lxd-gui.png)
 
 That's it!
