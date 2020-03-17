@@ -3,6 +3,9 @@
 Clone this repository:
 
 `git clone https://github.com/thirdbyte/kali-lxd-gui`
+
+Change directory:
+
 `cd kali-lxd-gui`
 
 Run the following commands one by one: (Tested on **Ubuntu 19.10**)
