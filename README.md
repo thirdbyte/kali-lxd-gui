@@ -19,7 +19,8 @@ cat kali-lxd-gui-profile | sudo lxc profile edit gui
 sudo lxc launch --profile default --profile gui images:kali/current/amd64 kali
 
 sudo lxc exec kali -- sh -c 'echo "deb http://kali.download/kali kali-rolling main contrib non-free" > /etc/apt/sources.list'
-sudo lxc exec kali -- apt-get update -y && apt-get dist-upgrade -y
+sudo lxc exec kali -- apt-get update
+sudo lxc exec kali -- apt-get dist-upgrade -y
 sudo lxc exec kali -- apt-get install kali-linux-core kali-desktop-xfce
 
 sudo lxc exec kali -- adduser kali
@@ -31,6 +32,9 @@ sudo lxc exec kali -- sh -c "echo 'Set disable_coredump false' > /etc/sudo.conf"
 
 sudo lxc exec kali -- apt install xfce4-terminal
 sudo lxc exec kali -- apt remove qterminal
+
+sudo lxc exec kali -- apt-get autoremove
+sudo lxc exec kali -- apt-get clean
 
 sudo lxc exec kali -- sudo -u kali xfce4-panel
 ```
