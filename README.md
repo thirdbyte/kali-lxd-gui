@@ -8,7 +8,7 @@ Change directory:
 
 `cd kali-lxd-gui`
 
-Run the following commands one by one: (Tested on **Ubuntu 19.10**)
+Run the following commands one by one: (Tested on **Ubuntu 19.10** & **Ubuntu 20.04**)
 
 ```
 snap install lxd
