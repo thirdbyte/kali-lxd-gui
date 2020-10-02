@@ -16,7 +16,7 @@ lxd init
 lxc profile create gui
 cat kali-lxd-gui-profile | lxc profile edit gui
 lxc launch --profile default --profile gui images:kali/current/amd64 kali
-lxc exec kali -- sh -c 'echo "deb http://archive.kali.org/kali kali-rolling main contrib non-free" > /etc/apt/sources.list'
+lxc exec kali -- sh -c 'echo "deb http://kali.download/kali kali-rolling main contrib non-free" > /etc/apt/sources.list'
 lxc exec kali -- apt-get update
 lxc exec kali -- apt-get dist-upgrade -y
 lxc exec kali -- apt-get install kali-linux-core kali-desktop-xfce -y
