@@ -38,5 +38,5 @@ That's it!
 --
 
 **References:**
-+[Documentation by Kali Linux](https://www.kali.org/docs/containers/kalilinux-lxc-images/#gui-kali-lxd-container-on-ubuntu-host)
-+[LXD GUI Profile by Simos Xenitellis](https://blog.simos.info/wp-content/uploads/2018/06/lxdguiprofile.txt)
++ [Documentation by Kali Linux](https://www.kali.org/docs/containers/kalilinux-lxc-images/#gui-kali-lxd-container-on-ubuntu-host)
++ [LXD GUI Profile by Simos Xenitellis](https://blog.simos.info/wp-content/uploads/2018/06/lxdguiprofile.txt)
