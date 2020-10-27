@@ -36,5 +36,6 @@ lxc exec kali -- sudo -u kali xfce4-panel
 
 That's it!
 --
-Original documentation : [https://www.kali.org/docs/containers/kalilinux-lxc-images/#gui-kali-lxd-container-on-ubuntu-host](https://www.kali.org/docs/containers/kalilinux-lxc-images/#gui-kali-lxd-container-on-ubuntu-host)
-Thanks to Simos Xenitellis for GUI profile: [https://blog.simos.info/wp-content/uploads/2018/06/lxdguiprofile.txt](https://blog.simos.info/wp-content/uploads/2018/06/lxdguiprofile.txt)
+Original documentation : [](https://www.kali.org/docs/containers/kalilinux-lxc-images/#gui-kali-lxd-container-on-ubuntu-host)
+
+Thanks to Simos Xenitellis for GUI profile: [](https://blog.simos.info/wp-content/uploads/2018/06/lxdguiprofile.txt)
